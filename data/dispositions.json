@@ -1,0 +1,66 @@
+[
+ {
+  "disposition_id": "dp-001",
+  "return_id": "ret-003",
+  "action": "scrap",
+  "quantity": 1,
+  "status": "executed",
+  "executed_at": "2026-08-26"
+ },
+ {
+  "disposition_id": "dp-002",
+  "return_id": "ret-005",
+  "action": "resell",
+  "quantity": 1,
+  "status": "executed",
+  "executed_at": "2026-09-03"
+ },
+ {
+  "disposition_id": "dp-003",
+  "return_id": "ret-001",
+  "action": "isolate",
+  "quantity": 1,
+  "status": "planned",
+  "planned_at": "2026-09-09"
+ },
+ {
+  "disposition_id": "dp-004",
+  "return_id": "ret-002",
+  "action": "isolate",
+  "quantity": 1,
+  "status": "planned",
+  "planned_at": "2026-09-10"
+ },
+ {
+  "disposition_id": "dp-005",
+  "return_id": "ret-009",
+  "action": "refurbish",
+  "quantity": 1,
+  "status": "planned",
+  "planned_at": "2026-10-27"
+ },
+ {
+  "disposition_id": "dp-006",
+  "return_id": "ret-006",
+  "action": "resell",
+  "quantity": 1,
+  "status": "executed",
+  "executed_at": "2026-09-16"
+ },
+ {
+  "disposition_id": "dp-007",
+  "return_id": "ret-008",
+  "action": "resell",
+  "quantity": 1,
+  "status": "planned",
+  "planned_at": "2026-10-25"
+ },
+ {
+  "disposition_id": "dp-008",
+  "return_id": "ret-010",
+  "action": "resell",
+  "quantity": 1,
+  "status": "planned",
+  "planned_at": "2026-10-30"
+ }
+]

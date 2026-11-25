@@ -1,20 +1,74 @@
 [
-  {
-    "inspection_id": "ins-001",
-    "return_id": "ret-001",
-    "received_at": "2026-09-08",
-    "seal": "opened",
-    "functional": null,
-    "cosmetic": "ok",
-    "decision": "pending"
-  },
-  {
-    "inspection_id": "ins-002",
-    "return_id": "ret-002",
-    "received_at": "2026-09-09",
-    "seal": "sealed",
-    "functional": "ok",
-    "cosmetic": "damaged",
-    "decision": "isolate"
-  }
+ {
+  "inspection_id": "ins-001",
+  "return_id": "ret-001",
+  "received_at": "2026-09-08",
+  "seal": "opened",
+  "functional": null,
+  "cosmetic": "ok",
+  "decision": "pending"
+ },
+ {
+  "inspection_id": "ins-002",
+  "return_id": "ret-002",
+  "received_at": "2026-09-09",
+  "seal": "sealed",
+  "functional": "ok",
+  "cosmetic": "damaged",
+  "decision": "isolate"
+ },
+ {
+  "inspection_id": "ins-003",
+  "return_id": "ret-003",
+  "received_at": "2026-08-22",
+  "seal": "opened",
+  "functional": "fail",
+  "cosmetic": "damaged",
+  "decision": "isolate"
+ },
+ {
+  "inspection_id": "ins-004",
+  "return_id": "ret-005",
+  "received_at": "2026-08-30",
+  "seal": "opened",
+  "functional": "ok",
+  "cosmetic": "ok",
+  "decision": "resell"
+ },
+ {
+  "inspection_id": "ins-005",
+  "return_id": "ret-006",
+  "received_at": "2026-09-12",
+  "seal": "opened",
+  "functional": "ok",
+  "cosmetic": "ok",
+  "decision": "resell"
+ },
+ {
+  "inspection_id": "ins-006",
+  "return_id": "ret-008",
+  "received_at": "2026-10-24",
+  "seal": "opened",
+  "functional": "ok",
+  "cosmetic": "ok",
+  "decision": "resell"
+ },
+ {
+  "inspection_id": "ins-007",
+  "return_id": "ret-009",
+  "received_at": "2026-10-26",
+  "seal": "opened",
+  "functional": null,
+  "cosmetic": "damaged",
+  "decision": "isolate"
+ },
+ {
+  "inspection_id": "ins-008",
+  "return_id": "ret-010",
+  "received_at": "2026-10-29",
+  "seal": "sealed",
+  "functional": "ok",
+  "cosmetic": "ok",
+  "decision": "resell"
+ }
 ]

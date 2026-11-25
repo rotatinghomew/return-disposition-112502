@@ -1,0 +1,44 @@
+[
+ {
+  "refund_id": "rf-001",
+  "return_id": "ret-001",
+  "amount": 299.0,
+  "status": "executed",
+  "executed_at": "2026-09-10"
+ },
+ {
+  "refund_id": "rf-002",
+  "return_id": "ret-003",
+  "amount": 299.0,
+  "status": "executed",
+  "executed_at": "2026-08-25"
+ },
+ {
+  "refund_id": "rf-003",
+  "return_id": "ret-005",
+  "amount": 299.0,
+  "status": "executed",
+  "executed_at": "2026-09-02"
+ },
+ {
+  "refund_id": "rf-004",
+  "return_id": "ret-006",
+  "amount": 299.0,
+  "status": "executed",
+  "executed_at": "2026-09-15"
+ },
+ {
+  "refund_id": "rf-005",
+  "return_id": "ret-008",
+  "amount": 319.0,
+  "status": "executed",
+  "executed_at": "2026-10-28"
+ },
+ {
+  "refund_id": "rf-006",
+  "return_id": "ret-010",
+  "amount": 199.0,
+  "status": "executed",
+  "executed_at": "2026-11-01"
+ }
+]

@@ -1,0 +1,40 @@
+{
+ "versions": [
+  {
+   "version": "D1",
+   "starts_at": "2026-08-01",
+   "ends_at": "2026-09-10",
+   "entries": {
+    "size": {"label": "尺寸不合适", "family": "size"},
+    "description": {"label": "描述不符", "family": "description"},
+    "damage": {"label": "运输损坏", "family": "damage"},
+    "other": {"label": "其他", "family": "other"}
+   }
+  },
+  {
+   "version": "D2",
+   "starts_at": "2026-09-10",
+   "ends_at": null,
+   "entries": {
+    "size_small": {"label": "尺寸偏小", "family": "size"},
+    "size_large": {"label": "尺寸偏大", "family": "size"},
+    "desc_color": {"label": "颜色与描述不符", "family": "description"},
+    "desc_function": {"label": "功能与描述不符", "family": "description"},
+    "damage_transit": {"label": "运输损坏", "family": "damage"},
+    "other": {"label": "其他", "family": "other"}
+   }
+  }
+ ],
+ "mappings": [
+  {
+   "from_version": "D1",
+   "to_version": "D2",
+   "links": [
+    {"from": "damage", "to": ["damage_transit"], "kind": "one_to_one"},
+    {"from": "other", "to": ["other"], "kind": "one_to_one"},
+    {"from": "size", "to": ["size_small", "size_large"], "kind": "split"},
+    {"from": "description", "to": ["desc_color", "desc_function"], "kind": "split"}
+   ]
+  }
+ ]
+}

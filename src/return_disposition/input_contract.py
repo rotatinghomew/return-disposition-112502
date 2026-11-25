@@ -6,7 +6,18 @@ import json
 from pathlib import Path
 from typing import Any
 
-REQUIRED_FILES = ('source_info.json', 'orders.json', 'returns.json', 'inspections.json', 'catalog.json', 'commitments.json')
+REQUIRED_FILES = (
+    'source_info.json',
+    'orders.json',
+    'returns.json',
+    'inspections.json',
+    'catalog.json',
+    'commitments.json',
+    'refunds.json',
+    'dispositions.json',
+    'reason_dictionary.json',
+    'resources.json',
+)
 
 
 def load_bundle(root: str | Path) -> dict[str, Any]:

@@ -1,18 +1,111 @@
 [
-  {
-    "return_id": "ret-001",
-    "order_id": "ord-001",
-    "quantity": 1,
-    "reason_code": "size",
-    "free_text": null,
-    "status": "refunded"
-  },
-  {
-    "return_id": "ret-002",
-    "order_id": "ord-002",
-    "quantity": 1,
-    "reason_code": "description",
-    "free_text": "颜色与页面不同",
-    "status": "exchange_pending"
-  }
+ {
+  "return_id": "ret-001",
+  "order_id": "ord-001",
+  "quantity": 1,
+  "reason_code": "size",
+  "free_text": null,
+  "status": "refunded",
+  "requested_at": "2026-09-05"
+ },
+ {
+  "return_id": "ret-002",
+  "order_id": "ord-002",
+  "quantity": 1,
+  "reason_code": "description",
+  "free_text": "颜色与页面不同",
+  "status": "exchange_pending",
+  "requested_at": "2026-09-06"
+ },
+ {
+  "return_id": "ret-003",
+  "order_id": "ord-004",
+  "quantity": 1,
+  "reason_code": "damage",
+  "free_text": null,
+  "status": "refunded",
+  "requested_at": "2026-08-18"
+ },
+ {
+  "return_id": "ret-004",
+  "order_id": "ord-006",
+  "quantity": 1,
+  "reason_code": null,
+  "free_text": "太大了，客厅放不下",
+  "status": "cancelled",
+  "requested_at": "2026-08-25"
+ },
+ {
+  "return_id": "ret-005",
+  "order_id": "ord-006",
+  "quantity": 1,
+  "reason_code": null,
+  "free_text": "太大了，客厅放不下",
+  "status": "refunded",
+  "requested_at": "2026-08-26",
+  "supersedes": "ret-004"
+ },
+ {
+  "return_id": "ret-006",
+  "order_id": "ord-007",
+  "quantity": 1,
+  "reason_code": "size",
+  "free_text": null,
+  "status": "refunded",
+  "requested_at": "2026-09-08"
+ },
+ {
+  "return_id": "ret-007",
+  "order_id": "ord-008",
+  "quantity": 1,
+  "reason_code": "size",
+  "free_text": null,
+  "status": "closed",
+  "requested_at": "2026-09-12"
+ },
+ {
+  "return_id": "ret-008",
+  "order_id": "ord-011",
+  "quantity": 1,
+  "reason_code": "size_small",
+  "free_text": null,
+  "status": "refunded",
+  "requested_at": "2026-10-20"
+ },
+ {
+  "return_id": "ret-009",
+  "order_id": "ord-011",
+  "quantity": 1,
+  "reason_code": "damage_transit",
+  "free_text": null,
+  "status": "exchange_pending",
+  "requested_at": "2026-10-21"
+ },
+ {
+  "return_id": "ret-010",
+  "order_id": "ord-013",
+  "quantity": 1,
+  "reason_code": "desc_color",
+  "free_text": null,
+  "status": "refunded",
+  "requested_at": "2026-10-25"
+ },
+ {
+  "return_id": "ret-011",
+  "order_id": "ord-014",
+  "quantity": 1,
+  "reason_code": null,
+  "free_text": null,
+  "status": "pending",
+  "requested_at": "2026-11-05"
+ },
+ {
+  "return_id": "ret-012",
+  "order_id": "ord-016",
+  "quantity": 1,
+  "reason_code": "other",
+  "free_text": null,
+  "status": "pending",
+  "requested_at": "2026-11-15"
+ }
 ]

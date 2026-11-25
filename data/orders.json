@@ -1,23 +1,155 @@
 [
-  {
-    "order_id": "ord-001",
-    "channel": "web",
-    "ordered_at": "2026-09-01",
-    "sku": "chair-a",
-    "quantity": 2
-  },
-  {
-    "order_id": "ord-002",
-    "channel": "market",
-    "ordered_at": "2026-09-02",
-    "sku": "chair-a",
-    "quantity": 1
-  },
-  {
-    "order_id": "ord-003",
-    "channel": "web",
-    "ordered_at": "2026-09-03",
-    "sku": "lamp-b",
-    "quantity": 1
-  }
+ {
+  "order_id": "ord-001",
+  "channel": "web",
+  "ordered_at": "2026-09-01",
+  "sku": "chair-a",
+  "quantity": 2,
+  "customer_id": "u01",
+  "promo": true
+ },
+ {
+  "order_id": "ord-002",
+  "channel": "market",
+  "ordered_at": "2026-09-02",
+  "sku": "chair-a",
+  "quantity": 1,
+  "customer_id": "u02",
+  "promo": true
+ },
+ {
+  "order_id": "ord-003",
+  "channel": "web",
+  "ordered_at": "2026-09-03",
+  "sku": "lamp-b",
+  "quantity": 1,
+  "customer_id": "u03",
+  "promo": true
+ },
+ {
+  "order_id": "ord-004",
+  "channel": "web",
+  "ordered_at": "2026-08-12",
+  "sku": "chair-a",
+  "quantity": 1,
+  "customer_id": "u04",
+  "promo": false
+ },
+ {
+  "order_id": "ord-005",
+  "channel": "market",
+  "ordered_at": "2026-08-15",
+  "sku": "lamp-b2",
+  "quantity": 1,
+  "customer_id": "u05",
+  "promo": false
+ },
+ {
+  "order_id": "ord-006",
+  "channel": "web",
+  "ordered_at": "2026-08-20",
+  "sku": "chair-a",
+  "quantity": 2,
+  "customer_id": "u06",
+  "promo": false
+ },
+ {
+  "order_id": "ord-007",
+  "channel": "market",
+  "ordered_at": "2026-09-05",
+  "sku": "lamp-b",
+  "quantity": 2,
+  "customer_id": "u07",
+  "promo": true
+ },
+ {
+  "order_id": "ord-008",
+  "channel": "market",
+  "ordered_at": "2026-09-06",
+  "sku": "chair-a",
+  "quantity": 1,
+  "customer_id": "u08",
+  "promo": true
+ },
+ {
+  "order_id": "ord-009",
+  "channel": "web",
+  "ordered_at": "2026-09-20",
+  "sku": "chair-a",
+  "quantity": 1,
+  "customer_id": "u01",
+  "promo": false
+ },
+ {
+  "order_id": "ord-010",
+  "channel": "web",
+  "ordered_at": "2026-09-25",
+  "sku": "lamp-bx",
+  "quantity": 1,
+  "customer_id": "u09",
+  "promo": false
+ },
+ {
+  "order_id": "ord-011",
+  "channel": "market",
+  "ordered_at": "2026-10-16",
+  "sku": "chair-a",
+  "quantity": 2,
+  "customer_id": "u10",
+  "promo": true
+ },
+ {
+  "order_id": "ord-012",
+  "channel": "web",
+  "ordered_at": "2026-10-18",
+  "sku": "lamp-bx",
+  "quantity": 1,
+  "customer_id": "u11",
+  "promo": true
+ },
+ {
+  "order_id": "ord-013",
+  "channel": "market",
+  "ordered_at": "2026-10-20",
+  "sku": "chair-a",
+  "quantity": 1,
+  "customer_id": "u03",
+  "promo": true
+ },
+ {
+  "order_id": "ord-014",
+  "channel": "web",
+  "ordered_at": "2026-11-02",
+  "sku": "chair-a",
+  "quantity": 1,
+  "customer_id": "u12",
+  "promo": false
+ },
+ {
+  "order_id": "ord-015",
+  "channel": "market",
+  "ordered_at": "2026-11-05",
+  "sku": "lamp-bx",
+  "quantity": 1,
+  "customer_id": "u06",
+  "promo": false
+ },
+ {
+  "order_id": "ord-016",
+  "channel": "web",
+  "ordered_at": "2026-11-10",
+  "sku": "chair-a",
+  "quantity": 2,
+  "customer_id": "u04",
+  "promo": false
+ },
+ {
+  "order_id": "ord-017",
+  "channel": "market",
+  "ordered_at": "2026-09-10",
+  "sku": "lamp-c",
+  "quantity": 1,
+  "customer_id": "u09",
+  "promo": false
+ }
 ]

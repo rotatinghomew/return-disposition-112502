@@ -1,0 +1,10 @@
+{
+ "as_of": "2026-11-25",
+ "zones": {
+  "resale": {"capacity": 40, "used": 36},
+  "refurb": {"capacity": 10, "used": 2},
+  "isolation": {"capacity": 12, "used": 3}
+ },
+ "qc_capability": {"per_day": 5, "backlog": 4},
+ "resale_stock": {"chair-a": 0, "lamp-b": 4, "lamp-bx": 5}
+}
