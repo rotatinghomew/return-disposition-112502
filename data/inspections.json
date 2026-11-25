@@ -1,0 +1,20 @@
+[
+  {
+    "inspection_id": "ins-001",
+    "return_id": "ret-001",
+    "received_at": "2026-09-08",
+    "seal": "opened",
+    "functional": null,
+    "cosmetic": "ok",
+    "decision": "pending"
+  },
+  {
+    "inspection_id": "ins-002",
+    "return_id": "ret-002",
+    "received_at": "2026-09-09",
+    "seal": "sealed",
+    "functional": "ok",
+    "cosmetic": "damaged",
+    "decision": "isolate"
+  }
+]

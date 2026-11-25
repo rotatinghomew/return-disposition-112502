@@ -1,0 +1,23 @@
+[
+  {
+    "order_id": "ord-001",
+    "channel": "web",
+    "ordered_at": "2026-09-01",
+    "sku": "chair-a",
+    "quantity": 2
+  },
+  {
+    "order_id": "ord-002",
+    "channel": "market",
+    "ordered_at": "2026-09-02",
+    "sku": "chair-a",
+    "quantity": 1
+  },
+  {
+    "order_id": "ord-003",
+    "channel": "web",
+    "ordered_at": "2026-09-03",
+    "sku": "lamp-b",
+    "quantity": 1
+  }
+]

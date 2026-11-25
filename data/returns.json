@@ -1,0 +1,18 @@
+[
+  {
+    "return_id": "ret-001",
+    "order_id": "ord-001",
+    "quantity": 1,
+    "reason_code": "size",
+    "free_text": null,
+    "status": "refunded"
+  },
+  {
+    "return_id": "ret-002",
+    "order_id": "ord-002",
+    "quantity": 1,
+    "reason_code": "description",
+    "free_text": "颜色与页面不同",
+    "status": "exchange_pending"
+  }
+]

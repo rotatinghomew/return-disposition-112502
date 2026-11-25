@@ -1,0 +1,9 @@
+[build-system]
+requires = []
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "return-disposition"
+version = "0.1.0"
+description = "退货原因的可比归因与仓配处置"
+requires-python = ">=3.11"

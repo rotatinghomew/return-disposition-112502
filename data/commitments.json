@@ -1,0 +1,16 @@
+[
+  {
+    "commitment_id": "cm-001",
+    "return_id": "ret-002",
+    "kind": "exchange",
+    "due_at": "2026-09-12",
+    "status": "confirmed"
+  },
+  {
+    "commitment_id": "cm-002",
+    "sku": "chair-a",
+    "kind": "replenish",
+    "due_at": "2026-09-15",
+    "status": "proposed"
+  }
+]
